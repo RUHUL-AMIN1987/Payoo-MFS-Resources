@@ -14,9 +14,9 @@ document.getElementById('loggingButton')
         const pinNumberValueConverted = parseInt(pinNumberValue)
 
         if(mobileNumberValueConverted === mobileNumber && pinNumberValueConverted === pinNumber){
-            console.log('all values matched')
+            window.location.href="./main.html"
         }
         else{
-            console.log('Invalid')
+            alert('Invalid Creadentials')
         }
     })
